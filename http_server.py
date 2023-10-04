@@ -3,7 +3,6 @@ import socketserver
 import argparse
 import logging
 
-
 # Парсинг аргументов командной строки
 parser = argparse.ArgumentParser(description='HTTP 1.1 Server')
 parser.add_argument('-p', '--port', type=int, default=8000, help='Port number')
